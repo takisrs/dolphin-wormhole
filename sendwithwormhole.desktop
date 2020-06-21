@@ -2,7 +2,7 @@
 Name = Send with Wormhole
 Type = Service
 ServiceTypes = KonqPopupMenu/Plugin
-MimeType = all/all;
+MimeType = application/octet-stream;
 X-KDE-Priority = TopLevel
 Actions = sendwithwormhole
 
