@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name = Send with Wormhole
+Type = Service
+ServiceTypes = KonqPopupMenu/Plugin
+MimeType = all/all;
+X-KDE-Priority = TopLevel
+Actions = sendwithwormhole
+
+[Desktop Action sendwithwormhole]
+Name = Send with Wormhole
+Exec = konsole -e wormhole send %f
+Icon = document-send
