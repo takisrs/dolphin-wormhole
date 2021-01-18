@@ -10,6 +10,8 @@ Adds an option to dolphin context menu to send a file with magic wormhole
 
 ## Installation
 
-`cp sendwithwormhole.desktop ~/.local/share/kservices5/ServiceMenus/`
+```bash
+cp sendwithwormhole.desktop ~/.local/share/kservices5/ServiceMenus/
+```
 
 
