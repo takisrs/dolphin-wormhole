@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name = Send with Wormhole
+Name[nl] = Versturen met Wormhole
 Type = Service
 ServiceTypes = KonqPopupMenu/Plugin
 MimeType = application/octet-stream;
@@ -8,5 +9,6 @@ Actions = sendwithwormhole
 
 [Desktop Action sendwithwormhole]
 Name = Send with Wormhole
+Name[nl] = Versturen met Wormhole
 Exec = konsole -e wormhole send %f
 Icon = document-send
